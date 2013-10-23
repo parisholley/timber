@@ -29,6 +29,9 @@
 	background-color: $med-green;
 	border-bottom: 1px dashed $light-green;
 	@include pie-clearfix;
+	.nav-social {
+		width:60%;
+	}
 	@media (min-width:500px){
 		.nav-social {
 			float:left;
@@ -42,6 +45,11 @@
 		.nav-placeholder {
 			float:left;
 			width:25%;
+		}
+	}
+	@media(min-width:800px){
+		.nav-social {
+			width:100%;
 		}
 	}
 }
@@ -384,11 +392,13 @@ code.php, code.twig {
 }
 
 .fb-like {
-	float:left;
 	margin-right:10px;
 }
 
 .gh-button {
-	float:left;
 	margin-right:10px;
+}
+
+.social-item {
+	display:inline-block;
 }
