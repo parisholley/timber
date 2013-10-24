@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>WordPress Templates are broken! - WordCamp Toronto 2013 - Jared Novack</title>
+		<title>WordPress Templating with Timber + Twig - WordCamp Boston 2013 - Jared Novack</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Jared Novack">
@@ -20,7 +20,6 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Coustard:900' rel='stylesheet' type='text/css'>
 
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
@@ -55,11 +54,7 @@
 			<div class="slides">
 
 				<section>
-					<h1>WordPress Templates Are Broken!</h1>
-					<h3 class="fragment">(But We Can Fix Them)</h3>
-					<aside class="notes">
-						But it's not all doom and gloom. I promise this is gonna be a fun presenation.
-					</aside>
+					<h1>Better Templating with<br/> Timber + Twig</h1>
 				</section>
 
 				<section>
@@ -70,6 +65,40 @@
 				</section>
 
 				<section>
+					<h3>Schedule</h3>
+					<ul>
+						<li>Why WordPress Templates are Broken</li>
+						<li>Some big ideas</li>
+						<li>Setting up Timber</li>
+						<div class="fragment">
+							<li>A Basic Article Page</li>
+							<li>A Basic Homepage</li>
+							<li class="med-green">Break!</li>
+						</div>
+						<div class="fragment">
+							<li>Custom Post Types</li>
+							<li>Custom Fields</li>
+							<li>Filters and Functions</li>
+						</div>
+						<div class="fragment">
+							<li class="med-green">Open Work Time</li>
+						</div>
+					</ul>
+				</section>
+
+				<section>
+					<h1>WordPress Templates Are Broken!</h1>
+					<h3 class="fragment">(But We Can Fix Them)</h3>
+					<aside class="notes">
+						But it's not all doom and gloom. I promise this is gonna be a fun presenation.
+					</aside>
+				</section>
+
+				<section>
+
+					<section>
+						<h2><img src="images/upstatement-logo.png" class="naked"></h2>
+					</section>
 
 					<section>
 						<img src="images/wc/daily-orange.png" class="naked" />
@@ -86,15 +115,7 @@
 					</section>
 
 					<section>
-						<h2><img src="images/upstatement-logo.png" class="naked"></h2>
-					</section>
-
-					<section>
 						<img src="images/bglobe-ipad.png" class="naked" />
-					</section>
-
-					<section>
-						<img src="images/toronto/globalnews.png" class="naked" />
 					</section>
 
 					<section>
@@ -209,12 +230,6 @@
 
 				<section>
 					<img src="images/twentyten.png" class="naked"/>
-					<h3 class="tag">TwentyTen Theme</h3>
-				</section>
-
-				<section>
-					<img src="images/twentytwelve.png" class="naked"/>
-					<h3 class="tag">TwentyTwelve Theme</h3>
 					<aside class="notes">
 						And when you see this stew of function calls and conditionals of PHP open/close tags of HTML. We have a word for this...
 					</aside>
@@ -365,7 +380,7 @@
 				</section>
 
 				<section>
-					<img src="images/toronto/craft.png" />
+					<img src="images/toronto/craft.png" class="naked" />
 				</section>
 
 				<section>
@@ -500,6 +515,10 @@
 				</section>
 
 				<section>
+					<h1>Let's build something</h1>
+				</section>
+<!-- 
+				<section>
 					<section>
 						<h2>print_r($post);</h2>
 					</section>
@@ -532,7 +551,7 @@
 
 				<section>
 					<h1>Who cares?</h1>
-				</section>
+				</section> -->
 
 				<!-- <section>
 					<section>
@@ -543,7 +562,7 @@
 					</section>
 				</section> -->
 
-				<section>
+				<!-- <section>
 					<img src="images/rh-logo.png" class="naked"/>
 				</section>
 
@@ -561,9 +580,9 @@
 
 				<section>
 					<h1>20%</h1>
-				</section>
+				</section> -->
 
-				<section>
+				<!-- <section>
 					<section><img src="images/rh/previews/taylor-new.png" class="naked"/></section>
 					<section><img src="images/rh/previews/walker.png" class="naked" /></section>
 					<section><img src="images/rh/previews/drwho.png"  class="naked"/></section>
@@ -576,7 +595,7 @@
 
 				<section>
 					<iframe width="980" height="615" src="//www.youtube.com/embed/_CKSll4MJx0" frameborder="0" allowfullscreen></iframe>
-				</section>
+				</section> -->
 
 				<section>
 					<h3>Twig Docs</h3>
